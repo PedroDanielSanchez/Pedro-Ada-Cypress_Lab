@@ -6,6 +6,7 @@ Feature: Ada Programs Page
 
   Scenario Outline: Ada Programs Page shows available programs
     Then I see the program with title "<Title>" 
+    
     Examples: 
       | Title                | 
       | React                |    

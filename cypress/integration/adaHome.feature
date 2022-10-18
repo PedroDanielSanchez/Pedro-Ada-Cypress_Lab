@@ -8,11 +8,12 @@ Feature: Ada Home Page
   Scenario Outline: Ada Home Page loads social media icons
     Given I see the social media section
     Then I validate "<SocialMedia>" icon redirects to "<url>"
+
     Examples: 
       | SocialMedia | url                                                       |
-      | Instagram   | https://www.instagram.com/ada_school_/                    |
-      | Youtube     | https://www.youtube.com/channel/UCCh2yyNLcNQRxboKtMzvFqw  |
-      | LinkedIn    | https://www.linkedin.com/company/adaschool/               |
-      | Facebook    | https://www.facebook.com/AdaEducacion/                    |
+      | elementor-social-icon-instagram   | https://www.instagram.com/ada_school_/                    |
+      | elementor-social-icon-youtube     | https://www.youtube.com/channel/UCCh2yyNLcNQRxboKtMzvFqw  |
+      | elementor-social-icon-linkedin-in | https://www.linkedin.com/company/adaschool/               |
+      | elementor-social-icon-facebook-f   | https://www.facebook.com/AdaEducacionParaTodos/                    |
 
 
